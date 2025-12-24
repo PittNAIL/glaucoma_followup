@@ -77,8 +77,4 @@ If you use this code or dataset in your research, please cite our paper:
 
 ## Contact
 
-For questions or collaboration opportunities, please contact the PittNAIL research group.
-
----
-
-**Note**: This repository is part of ongoing research at the University of Pittsburgh's NAIL (Neuro AI & Language) Lab, focused on clinical natural language processing for ophthalmology.
+For questions or collaboration opportunities, please contact the PittNAIL research group. 
