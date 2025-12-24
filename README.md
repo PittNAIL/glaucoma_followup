@@ -44,7 +44,11 @@ The rule-based algorithm demonstrates:
 ## Repository Contents
 
 - `original.ipynb`: Implementation of Cai et al's rule-based extraction algorithm, applied to our glaucoma dataset for baseline comparison
-- Refined algorithm with optimized logic and keywords tailored to ophthalmology clinical notes
+- `glaucoma_annotation_0918.py`: **V7 Algorithm** - Final refined extraction algorithm used in downstream tasks and clinical applications. Features:
+  - Priority-based pattern matching (6 priority levels)
+  - Ophthalmology-specific keywords (RTC, return, follow-up, review, recheck, etc.)
+  - Temporal expression normalization
+  - Exclusion rules for false positive filtering
 - Clinical note processing and pattern matching code
 - Evaluation metrics and performance analysis
 - Pattern analysis and visualization
