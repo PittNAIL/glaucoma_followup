@@ -43,10 +43,21 @@ The rule-based algorithm demonstrates:
 
 ## Repository Contents
 
-- `original.ipynb`: Core implementation of the rule-based extraction algorithm
+- `original.ipynb`: Implementation of Cai et al's rule-based extraction algorithm, applied to our glaucoma dataset for baseline comparison
+- Refined algorithm with optimized logic and keywords tailored to ophthalmology clinical notes
 - Clinical note processing and pattern matching code
 - Evaluation metrics and performance analysis
 - Pattern analysis and visualization
+
+## Methodology Development
+
+1. **Baseline Implementation**: Applied Cai et al's published algorithm to our glaucoma follow-up dataset
+2. **Initial Evaluation**: Assessed performance and identified limitations on ophthalmology-specific documentation
+3. **Refinement Process**: Iteratively improved extraction logic and keyword patterns based on:
+   - Domain-specific terminology in ophthalmology
+   - Clinical documentation patterns unique to glaucoma follow-up
+   - Error analysis and false positive/negative cases
+4. **Optimized Algorithm**: Developed refined rules that better capture follow-up timing in our clinical context
 
 ## Citation
 
